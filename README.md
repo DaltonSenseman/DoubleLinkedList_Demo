@@ -26,9 +26,9 @@ Completion by friday 11/06/2020
 
 
 ## Built With
-C++ version 17
-Clion Jetbrains
-MinGW -w64 8.1.0
+- C++ version 17
+- Clion Jetbrains
+- MinGW -w64 8.1.0
 
 ## Contributing
 
