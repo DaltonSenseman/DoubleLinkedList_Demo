@@ -1,20 +1,34 @@
 # DoubleLinkedList_Demo
+Code example for a double linked list for the use of educational purposes. 
 
 ## Overview
-
+For the CRN 3031 course at FGCU this demonstration is for the use of the professor of the course, Dr. Koufakou. 
+This code is a demonstration of c++ coding and how to utilize Git in a collaborative manner using branching, merging 
+and the handling of conflicts as to not cause irreparable damage to the source code by overriding the master.  
+Within this repo the use of a Readme, and the Kanban board is also used as to show students how to manage and keep track 
+of the project as to know and understand who is working on what throughout the duration of their projects. 
 
 #### Goals
+Show the useage of Git and GitHub
+Demonstrate Branching and merging
+Demonstrate conflict resolution
+Demonstrate the useade of  ReadMe and Kanban board 
 
 
 #### Success Criteria
+Acceptance from the stateholder that we have met the goals outlined above for her demonstration. 
 
 #### Stakeholders
+Dr. Koufakou - Professor of the course
 
 #### Timelines
+Completion by friday 11/06/2020
 
 
 ## Built With
-
+C++ version 17
+Clion Jetbrains
+MinGW -w64 8.1.0
 
 ## Contributing
 
