@@ -4,18 +4,27 @@
  *      @brief
  *      This file contains the function definitions for the list header file
  *      @author Jeff Munoz
+ *      Doxygen comments: Dalton Senseman
  *      @version .02 11/5/2020
  */
 
 #include "List.h"
 
+/**
+ * @brief sets up the empty list constructor with no elements.
+ * @bug none known
+ */
 List::List() {
     front = NULL;
     rear = NULL;
     size = 0;
     hold = 0;
 }
-
+/**
+ * @brief adds a new node to the front of the linked list setting the data into the node.
+ * @param data int value to bve placed into the p-> data container inside the node.
+ * @bug none known
+ */
 void List::insert_front(int data) {
     node *p = new node;
     p->Data = data;
@@ -33,7 +42,11 @@ void List::insert_front(int data) {
         size++;
     }
 }
-
+/**
+ * @brief adds a new node to the front of the linked list setting the data into the node.
+ * @param *data is a void pointer
+ * @bug none known
+ */
 void List::insert_front(void *data) {
     node *p = new node;
     p->pntData = data;
@@ -51,7 +64,11 @@ void List::insert_front(void *data) {
         size++;
     }
 }
-
+/**
+ * @brief remove the head of the linked list that uses int datatype.
+ * @return hold which is the data that the head contained if there was not head to remove then it returns 0.
+ * @bug none known
+ */
 int List::remove_front_i() {
     if (front == NULL) {// empty list
         hold = 0;
@@ -72,7 +89,12 @@ int List::remove_front_i() {
     }
     return hold;
 }
-
+/**
+ * @brief remove the head of the linked list that uses int datatype.
+ * @return temphold which is the pointer of data that the head contained if there was not head to remove then it
+ * returns NULL.
+ * @bug none known
+ */
 void *List::remove_front_p() {
     void *tempHold;
     if (front == NULL) {// empty list
@@ -94,7 +116,11 @@ void *List::remove_front_p() {
     }
     return tempHold;
 }
-
+/**
+ * @brief adds a new node to the end(tail) of the linked list to be populated.
+ * @param data an int data type to be placed in the tail of the list
+ * @bug none known
+ */
 void List::insert_rear(int data) {
     node *p = new node;
     p->Data = data;
@@ -113,7 +139,11 @@ void List::insert_rear(int data) {
         size++;
     }
 }
-
+/**
+ * @brief adds a new node to the end(tail) of the linked list to be populated.
+ * @param data an pointer data type to data to be placed in the tail of the list
+ * @bug none known
+ */
 void List::insert_rear(void *data) {
     node *p = new node;
     p->pntData = data;
@@ -131,7 +161,11 @@ void List::insert_rear(void *data) {
         size++;
     }
 }
-
+/**
+ * @brief removed the rear(tail) of the linked list
+ * @return hold = 0 if list is empty else returns the value of the removed item.
+ * @bug none known
+ */
 int List::remove_rear_i() {
     if (rear == NULL) {// empty list
         hold = 0;
@@ -152,7 +186,11 @@ int List::remove_rear_i() {
     }
     return hold;
 }
-
+/**
+ * @brief removed the rear(tail) of the linked list
+ * @return temphold = NULL if list is empty else returns the pointer value of the removed item.
+ * @bug none known
+ */
 void *List::remove_rear_p() {
     void *tempHold;
     if (rear == NULL) {// empty list
@@ -175,12 +213,19 @@ void *List::remove_rear_p() {
     return tempHold;
 
 }
-
+/**
+ * @brief grabs the current size of the linked list
+ * @return size the number of items in the list.
+ * @bug none known.
+ */
 int List::ListSize() {
     cout << "The list is " << size << " items long" << endl;
     return size;
 }
-
+/**
+ * @brief prints the entire linked lists contents i na comma separated list.
+ * @bug none known.
+ */
 void List::print() {
     node *p = front;
 //    cout << "The list Contains: ";
