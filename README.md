@@ -9,14 +9,14 @@ Within this repo the use of a Readme, and the Kanban board is also used as to sh
 of the project as to know and understand who is working on what throughout the duration of their projects. 
 
 #### Goals
-- Show the useage of Git and GitHub.
+- Show the usage of Git and GitHub.
 - Demonstrate Branching and merging.
 - Demonstrate conflict resolution.
-- Demonstrate the useade of  ReadMe and Kanban board. 
+- Demonstrate the usage of  ReadMe and Kanban board. 
 
 
 #### Success Criteria
-Acceptance from the stateholder that we have met the goals outlined above for her demonstration. 
+Acceptance from the stakeholder that we have met the goals outlined above for her demonstration. 
 
 #### Stakeholders
 Dr. Koufakou - Professor of the course.
