@@ -219,7 +219,7 @@ void *List::remove_rear_p() {
  * @bug none known.
  */
 int List::ListSize() {
-    cout << "The double-linked list is " << size << " items long" << endl;
+    cout << "The linked list is " << size << " items long." << endl;
     return size;
 }
 /**
