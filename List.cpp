@@ -20,6 +20,7 @@ List::List() {
     size = 0;
     hold = 0;
 }
+
 /**
  * @brief adds a new node to the front of the linked list setting the data into the node.
  * @param data int value to bve placed into the p-> data container inside the node.
@@ -41,7 +42,9 @@ void List::insert_front(int data) {
         front = p;
         size++;
     }
-    cout << "New data has been added to the front of the list." << endl;
+
+    cout << "Inserted new data in the front of the list."<< endl;
+
 }
 /**
  * @brief adds a new node to the front of the linked list setting the data into the node.
@@ -220,11 +223,11 @@ void *List::remove_rear_p() {
  * @bug none known.
  */
 int List::ListSize() {
-    cout << "The linked list is " << size << " items long." << endl;
+    cout << "The Double-linked list is " << size << " items long." << endl;
     return size;
 }
 /**
- * @brief prints the entire linked lists contents i na comma separated list.
+ * @brief prints the entire contents of a linked list in a comma separated list.
  * @bug none known.
  */
 void List::print() {
