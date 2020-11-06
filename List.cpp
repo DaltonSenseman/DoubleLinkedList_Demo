@@ -41,6 +41,7 @@ void List::insert_front(int data) {
         front = p;
         size++;
     }
+    cout << "New data has been added to the front of the list." << endl;
 }
 /**
  * @brief adds a new node to the front of the linked list setting the data into the node.
