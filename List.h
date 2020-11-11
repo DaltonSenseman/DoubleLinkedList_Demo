@@ -28,19 +28,11 @@ public:
 
     void insert_front(int data);
 
-    void insert_front(void *data);
-
     void insert_rear(int data);
-
-    void insert_rear(void *data);
 
     int remove_front_i();
 
-    void *remove_front_p();
-
     int remove_rear_i();
-
-    void *remove_rear_p();
 
     int ListSize();
 

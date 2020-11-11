@@ -8,7 +8,6 @@
  */
 struct node {
     int Data;
-    void *pntData;
     node *next;
     node *prev;
 };
